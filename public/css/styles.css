@@ -7,11 +7,19 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
+    background: #aaa;
 }
 
 .main-content {
+    top:50px;
+    margin:80px;
+    padding: 20px;
     flex-grow: 1;
+    border:solid 2px #000;
+    border-radius: 15px;
+    background: #fff;
+   
 }
 
 footer {
@@ -52,4 +60,19 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+.about_details {
+    font-family: montserrat;
+    font-weight:bold;
+    border-radius: 12px;
+    background: #ddd;
+    padding:10px;
+
+}
+#message-2 {
+    border-radius: 12px;
+    background: #ddd;
+    padding:10px;
+
 }
